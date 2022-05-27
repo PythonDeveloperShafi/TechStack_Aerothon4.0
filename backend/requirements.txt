@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+
+# for loading environment variables
+python-dotenv
+
+# s3 Bucket
+boto3
+
+

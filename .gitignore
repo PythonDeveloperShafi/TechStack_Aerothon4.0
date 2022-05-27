@@ -1,0 +1,4 @@
+ae_venv
+/backend/templates
+/backend/.env
+/backend/__pycache__

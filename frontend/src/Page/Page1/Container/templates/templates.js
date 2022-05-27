@@ -56,14 +56,14 @@ function Templates() {
     const name = e.toLowerCase() + 'Img';
     setbeImage(templateImages[name]);
   }
-  function activateLasers(){
-    axios.post('http://localhost:8000/files', {
-      feTitle: feTitle,
-      beTitle: beTitle
+   function activateLasers(){
+    axios.get('https://jgwdrnm81k.execute-api.ap-south-1.amazonaws.com/stage1?feTitle=React&beTitle=Fastapi', {
+      params: {feTitle: feTitle,
+      beTitle: beTitle}
     })
     .then(function (response) {
       console.log(response);
-      window.open(response.data);
+      window.open(response.data.url);
     })
     .catch(function (error) {
       console.log(error);

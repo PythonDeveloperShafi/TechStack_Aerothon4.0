@@ -15,10 +15,7 @@ const Working = () => {
           integration?
         </h1>
         <p>
-          Yet bed any for travelling assistance indulgence unpleasing.
-          Not thoughts all exercise blessing. Indulgence way
-          everything joy alteration boisterous the attachment. Party
-          we years to order allow asked of.
+          We have already integrated the front-end client to the back-end server of the template that will be supported on all kinds of devices (Windows, macOS, Linux). Necessary packagegs will be downloaded automatically with one simple command using docker (will be included with the template). No more hassle to connect different frameworks manually we have covered all this for you
         </p>
       </div>
     </div>

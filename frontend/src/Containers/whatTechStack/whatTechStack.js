@@ -23,7 +23,7 @@ const WhatTechStack = () => {
         />
         <Feature
           title='Back-End'
-          text='It provides a fully customizable templates of your favourite front-end framework to start with. No need to install different libraries and dependencies, you can get here all in one.'
+          text='It provides a fully customizable templates of your favourite back-end framework to start with. No need to install different libraries and dependencies, you can get here all in one.'
         />
         <Feature
           title='Full-Stack'

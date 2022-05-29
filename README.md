@@ -1,6 +1,6 @@
 # Airbus Aerothon 4.0
 
-# Tech Stack Web Application ([Visit](https://frondend.d3eo2hilmaxlla.amplifyapp.com/))
+# Tech Stack Web Application
 
 Tech Stack is a strong cross platform framework with modern architecture. A developer platform for building all kinds of web, mobile and desktop applications across different frameworks based on the requirement. It is a framework that help developers to kick-start their development with integrated back-end and frond-end templates. It is a fully responsive website.
 

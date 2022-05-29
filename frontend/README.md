@@ -17,14 +17,17 @@ Tech Stack is a strong cross platform framework with modern architecture. A deve
 
 ![](src/Assets/Screenshot-tech-stack.png) 
 
-### What I learned
+### How it works?
 
-In this challenge I learned about 
+The docker compose command create two docker containers to run the frontend (web) and backend (server). 
 
-- React Components
-- `useState` hooks
-- Redux
-- Applying Firebase authentication
-- Dynamic page rendering
-- Applying payment functionality using stripe
-- Connecting backend with realtime database
+![](src/Assets/diagram.png) 
+
+A container is a standard unit of software that packages up code and all its dependencies so the application runs quickly and reliably from one computing environment to another. A Docker container image is a lightweight, standalone, executable package of software that includes everything needed to run an application: code, runtime, system tools, system libraries and settings.
+The web container download and install all the dependencies automatically inside the container and run the web server. To allow user to make changes in the web application, a folder of the computer is mapped with that of docker container. Also, the port of the container is mapped with the local port of the computer to examine the changes and web application developed. Similar procedure is adopted to setup the server container and is mapped with the local folder.
+-	To change local port of the web server, edit the docker-compose.yml file 
+
+![](src/Assets/vs-demo.png) 
+
+-	To change the web framework, edit the App file under src folder in the web framework
+-	To change the server framework, edit the server file under server framework

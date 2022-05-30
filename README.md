@@ -32,4 +32,4 @@ The web container download and install all the dependencies automatically inside
 -	To change the web framework, edit the App file under src folder in the web framework
 -	To change the server framework, edit the server file under server framework
 
-### The video.mp4 file is provided to show how the developed application works.
+### The video-demo.mp4 file is provided to show how the developed application works.
